@@ -1,0 +1,21 @@
+<h2>Blogs</h2>
+
+{{#if todos.length}}
+<ul>
+  {{#each todos}}
+    <form class="blogik2">
+
+           <div class='card' style='width: 18rem;'>
+                <img id='cartinka1' src='/picture/{{photo}}' class='card-img-top'> 
+                <div class='card-body'>
+                     <p class='card-text'>{{text}}</p>
+                </div>
+          </div>
+
+    </form>
+ 
+  {{/each}}
+</ul>
+{{else}}
+<p>No Blogs!</p>
+{{/if}}
