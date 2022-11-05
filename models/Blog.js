@@ -1,18 +1,15 @@
 const { Schema, model } = require('mongoose')
 
 const schema = new Schema({
-/*   title: {
+   photo: {
     type: String,
     required: true
   },
-  completed: {
-    type: Boolean,
-    default: false
-  },
-  name: 
+  text: 
   {
-    type: String
-  } */
+    type: String,
+    required: true
+  } 
 
 })
 
